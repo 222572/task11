@@ -1,5 +1,7 @@
 from cryptography.hazmat.primitives.asymmetric import padding
 from cryptography.hazmat.primitives import hashes
+from cryptography.hazmat.primitives import serialization
+
 import socket
 
 # Загрузка приватного ключа
